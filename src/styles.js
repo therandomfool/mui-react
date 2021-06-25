@@ -1,10 +1,16 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
-    container: {
-        backgrounColor: theme.palette.background.paper,
-        padding: theme.spacing(8, 0, 6)
-    }
+  container: {
+    backgroundColor: theme.palette.background.paper,
+    padding: theme.spacing(8, 0, 6),
+  },
+  icon: {
+    mariginRight: '20px !important',
+  },
+  button: {
+    marginTop: "40px",
+  }
 }));
 
 export default useStyles;
